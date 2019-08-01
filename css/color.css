@@ -1,0 +1,124 @@
+ul.slimmenu li a:hover,
+ul.slimmenu li a.mPS2id-highlight,
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu li a:hover,
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu li a.mPS2id-highlight,
+.about-wrap .about-icon,
+.counter-wrap p,
+.des-programs-author.left p span,
+.des-programs-author.left .link,
+.des-programs-author.right p span,
+.des-programs-author.right .link,
+.services-wrap h5 span,
+.journal-det .link,
+.journal-det-right .link,
+.list-social-team li.icon-team a:hover,
+.project-page a:hover,
+.services-wrap .icon-ser,
+#royal_preloader.royal_preloader_number .royal_preloader_percentage:after,
+.menu > ul > li a:hover,
+.menu > ul > li > ul > li p span,
+.menu > ul > li a span,
+.menu > ul > li a.curent-multi-page,
+.cbp-af-header.cbp-af-header-shrink .menu > ul > li a.curent-multi-page,
+.name-aut-replay a,
+.link-recents a:hover,
+.tp-caption.Newspaper-Subtitle,
+.Newspaper-Subtitle,
+.shop-det-wrap .shop-det-icon,
+.cart-slide-out .cart-slide-out-item .inside-cart-out-item p,
+.cart-slide-out .cart-slide-out-item .inside-cart-out-item a:hover,
+.shop-item .product-det h3 span,
+.price-description .stock,
+.price-description .sku a:hover,
+.smk_accordion .accordion_in .acc_head:hover,
+.smk_accordion .accordion_in.acc_active > .acc_head{
+    color: #ff613a;
+}
+.cd-pagination .current {
+	background-color: #6dc234;
+	border-color: #6dc234;
+}
+.menu--juliet .menu__link::after,
+#owl-sep-1.owl-theme .owl-controls .owl-page.active span,
+#owl-product.owl-theme .owl-controls .owl-page.active span,
+#owl-logos.owl-theme .owl-controls .owl-page.active span,
+#owl-portfolio-slider.owl-theme .owl-controls .owl-page.active span,
+.des-programs-author.left .link:before,
+.des-programs-author.right .link:before,
+.pricing-plan .button,
+.journal-det .link:before,
+.link:before,
+#owl-home.owl-theme .owl-controls .owl-page.active span,
+#owl-home.owl-theme .owl-controls .owl-page span:hover,
+.custom.tparrows:hover,
+.metis.tparrows:hover,
+.journal-det .link:before,
+.journal-det-right .link:before,
+.tags:hover,
+#owl-post-slider.owl-theme .owl-controls .owl-page.active span,
+.price-description button  {
+	background: #6dc234;
+}
+#cd-zoom-in, #cd-zoom-out,
+#ajax-form button:hover,
+.list-social-footer li:hover,
+#royal_preloader.royal_preloader_progress .royal_preloader_meter,
+.cd-headline.type .cd-words-wrapper.selected,
+.con-soc-links a span:before,
+#filter li .current,
+#filter li a:hover,
+#filter.project-filter li .current,
+#filter.project-filter li a:hover,
+.tp-loader.spinner2,
+.comments button:hover,
+.sidebar input:active,
+.sidebar input:focus,
+.link-tag a:hover,
+.shop-item .product-det .product-links a:hover,
+.shop-item .product-det .product-links a:first-child {
+	background-color: #6dc234;
+}
+.comments textarea:focus,
+.comments input:focus,
+.comments textarea:active,
+.comments input:active {	
+	border-bottom:1px solid #6dc234;
+}
+.sidebar input:-ms-input-placeholder  {
+	color:#6dc234;
+}
+.sidebar input::-moz-placeholder  {
+	color:#6dc234;
+}
+.sidebar input:-moz-placeholder  {
+	color:#6dc234;
+}
+.sidebar input::-webkit-input-placeholder  {
+	color:#6dc234;
+}
+.pro-bar {
+	background: rgb(180, 255, 127);
+}
+
+#ajax-form textarea:focus,
+#ajax-form input:focus,
+#ajax-form textarea:active,
+#ajax-form input:active {	
+	border-bottom:1px solid #6dc234;
+}
+::selection {
+	background: #6dc234;
+}
+::-moz-selection {
+	background: #6dc234;
+}
+
+@media only screen and (min-width: 1200px) {
+.journal-det{
+	border-right:3px solid #f84f01;
+	border-left:3px solid #f84f01;
+}
+.journal-det-right{
+	border-right:3px solid #f84f01;
+	border-left:3px solid #f84f01;
+}
