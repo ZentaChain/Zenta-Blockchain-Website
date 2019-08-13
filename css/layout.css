@@ -314,7 +314,7 @@ body.royal_preloader {
 	margin-bottom: 0;
 }
 .menu-back{
-	background: rgba(0,0,0,0);
+	background: light-grey;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
