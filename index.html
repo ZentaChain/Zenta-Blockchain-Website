@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 	<html class="no-js" lang="en">
 
@@ -58,12 +58,12 @@
 	<link rel="zentachain-icon" href="zentachain-icon.png">
 	<link rel="zentachain-icon" sizes="72x72" href="zentachain-icon-72x72.png">
 	<link rel="zentachain-icon" sizes="114x114" href="zentachain-icon-114x114.png">
+	<script type="text/javascript" src="js/modernizr.custom.js"></script>
+	
 
-	<script type="text/javascript" src="js/modernizr.custom.js"></script> 
-	
-	
-</head>
 <body class="royal_preloader">	
+	
+	<body onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);"></body>
 	
 	<div id="royal_preloader"></div>
 	
@@ -73,7 +73,7 @@
 		<nav id="menu-wrap" class="menu-back cbp-af-header">
 			<div class="container">
 				<div class="twelve columns">
-					<div class="logo" img src="images/zenta-logo.png" alt="Zentachain"></div>
+				<a href="https://zentachain.io"<div class="logo" img src="images/zenta-logo.png" alt="Zentachain"></div></a>
 					<div class="menu">
 						<ul>
 							<li>
@@ -96,9 +96,6 @@
 							</li>
 							<li>
 								<a href="#roadmap">Roadmap</a>
-							</li>
-							<li>
-								<a href="https://zentachain.io/">Back to Zentachain</a>
 							</li>
 						</ul>
 					</div>
@@ -401,9 +398,9 @@
 									<p>Zentacore will employ sharding to drastically improve on scalability and transaction speeds of the Ethereum
 										blockchain. The easiest way to understand how sharding functions is to draw parallels with horizontal
 										database partitioning. Imagine having a large database containing millions of records and trying to search
-										for ones containing only a certain attribute. From a technical perspective, this is a task that takes a
+										for ones by containing only a certain attribute. From a technical perspective, this is a task that takes a
 										significant amount of time to execute. However, if we were to partition the database into tables according
-										to its attributes it would decrease the search time, as only a single table would be queried in that case.
+										to its attributes, it would decrease the search time, as only a single table would be queried in that case.
 										The sharding solution is interconnected with the entire ZentaChain ecosystem and enables partitioning and
 										storing of the entire blockchain within nodes (shards) which are then responsible for validating solely the
 										transactions contained within them as opposed to each node having to process every single transaction on
@@ -415,15 +412,15 @@
 							<div class="six columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.5s">
 								<div class="services-wrap back-black">
 									<h5><span>&#xe050;</span>What is Sharding?</h5>
-										<p> The demand for scalability on the Ethereum is becoming increasingly urgent. The Cryptokitties incident
-											demonstrated how quickly the Ethereum network can clog-up. ZentaChain will use Sharding to establish a high
+										<p> The demand for scalability on the Ethereum becomes increasingly urgent. The Cryptokitties incident
+											demonstrated how quickly the Ethereum network can prevent it. ZentaChain will use Sharding to establish a high
 											TPS, future proof infrastructure. Understanding why ZentaChain uses Sharding: One of the major problems of
-											a blockchain is that an increase in the number of nodes reduces it’s scalability. This may seem
-											counterintuitive because more nodes doesn’t result in more power or more speed, the opposite is true: One
-											of the reasons a blockchain has its level of security is because every single node must process every
+											a blockchain is that an increase in the number of nodes reduces its scalability. This may be
+											counterintuitive because more nodes do not result in more power or speed, the opposite is true: One
+											of the reasons why a blockchain has its level of security is because every single node must process every
 											single transaction. This is like having your report checked by every single accountant in the company.
-											While this may ensure that your report is faultless, it will also take a really long time before you get it
-											back and finally approved. Ethereum faces a similar problem. The nodes are your accountants, each
+											While this may ensure that your report is faultless, it will also take a long time before you get it
+											back and finally approved. Ethereum faces a similar problem. The nodes are your accountants and each
 											transaction is your report.
 										</p>
 								</div>
@@ -436,26 +433,26 @@
 							<div class="six columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.6s">
 								<div class="services-wrap back-black">
 									<h5><span>&#xe040;</span>The Zentameshnet</h5>
-										<p> Zentameshnet has self healing properties that contribute to the ability to achieve censorship
-											resistance. Self-healing means if a node connection is blocked or disabled, the network mesh can patch and
-											rerouted around the lost node. The data is redirected and the network is still functional. Meshed networks
-											can be applied to both wired and wireless networks, as well as the Zentalk will establish a meshed WLAN
-											(Wireless Local Access Network). This MWLAN is achieved through the use of a nodes Meshed WiFi. This will
-											be required for offline communications.This means that the ZentaChain token holder has the ability to
-											establish and share a network uplink (online to offline), as well as establish communication with devices
-											with no internet access (offline to offline). This can be accomplished with little to no direct
-											infrastructure. Relaying data will be rewarded with Zenta tokens.
+										<p> Zentameshnet has self-healing properties that contribute to the ability to achieve censorship
+											resistance. Self-healing means that if a node connection is blocked or disabled, The meshed network can patch and
+											reroute around the lost node. So that data is redirected and the network is still functional. Meshed networks
+											can be applied to both wired and wireless networks and the Zentalk will establish a meshed WLAN
+											(Wireless Local Access Network). This Zenta-MWLAN is achieved through the use of a node Meshed WiFi. This will
+											be required for offline communication.It means that the ZentaChain token holder has the ability to
+											establish and share a network uplink (online to offline) and establish communication with devices
+											with no internet access (offline to offline). This can be accomplished with by little to no direct
+											infrastructure. Running Zenta-nodes will be rewarded with Zenta tokens.
 										</p>
 								</div>
 							</div>
 							<div class="six columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.7s">
 								<div class="services-wrap back-black">
 									<h5><span>&#xe02b;</span>DPOS Algorithm</h5>
-										<p>Delegated Proof of Stake (otherwise known as DPoS) is a consensus algorithm maintaining irrefutable
+										<p>Delegated Proof of Stake also known as DPoS is a consensus algorithm maintaining irrefutable
 											agreement on the truth across the network, validating transactions and acting as a form of digital
 											democracy. Delegated proof of stake uses real-time voting combined with a social system of reputation to
 											achieve consensus. It can be seen to be the least centralized consensus protocol compared to all others as
-											it is the most inclusive. Every token holder can exercise a degree of influence about what happens on the
+											it is the most inclusive. Every token holder can execute a degree of influence about what happens on the
 											network. In other words: holding Zenta tokens will reward you with voting power and extra tokens.
 										</p>
 								</div>
@@ -537,10 +534,11 @@
 						<div class="title-text text-center">
 							<h3>WHO WE ARE</h3>
 						<div data-scroll-reveal="enter bottom move 100px over 1s after 0.4s"></div>
+						<div class="container"></div>
 							<div>
 								<p>&nbsp;</p>
-								<h5 style="text-align: justify;" style="sans-serif;">Zentachain team is a collective of activists and blockchain enthusiasts aiming to become a small but valuable block in the foundation of what we hope will be a safer, fairer and altogether a better world of the future. Through our knowledge and the use of blockchain technology, and we will offer the public a range of products that will ensure their privacy and security of their data in a time when these aspects of online engagement are severely lacking.
-								</h5>
+								<h4 style="text-align: justify;">Zentachain team is a collection of activists and blockchain enthusiasts aiming to become a small but valuable block in the foundation of what we hope will be a safer, fairer and altogether a better world of the future. Through our knowledge and the use of blockchain technology, and we will offer to the public a range of products that will ensure their privacy and security of their data in a time when these aspects of online engagement are severely lacking.
+								</h4>
 							</div>
 						</div>
 					</div>
@@ -729,10 +727,71 @@
 							</div>
 						</div>
 					</div>
-					<div class="four columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.7s">
+				</div>
+			</div>
+
+
+			<div class="section padding-top-bottom back-black">
+				<div class="container">
+					<div class="twelve columns"></div>
+					<div class="four columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.3s">
 						<div class="team-wrap snd">
-                            
-							<img src="images/zentachainhiring.png" alt="Zentachainhiring" />
+							<img src="images/adi.jpg" alt="Geraldine Adi"/>
+							<h6>Name: Geraldine Adi</h6>
+							<h5>Developer</h5>
+							<div class="skills-name">HTML & CSS<span>%</span><span class="counter-numb">95</span></div>
+							<div class="pro-bar bar-95" data-pro-bar-percent="95" data-pro-bar-delay="800"></div>
+							<div class="skills-name">PHP & MySql<span>%</span><span class="counter-numb">81</span></div>
+							<div class="pro-bar bar-81" data-pro-bar-percent="81" data-pro-bar-delay="800"></div>
+							<div class="skills-name">Graphic Designing<span>%</span><span class="counter-numb">80</span></div>
+							<div class="pro-bar bar-80" data-pro-bar-percent="80" data-pro-bar-delay="800"></div>
+							<div class="skills-name">Solidity & Android<span>%</span><span class="counter-numb">74</span></div>
+							<div class="pro-bar bar-74" data-pro-bar-percent="74" data-pro-bar-delay="800"></div>
+							<div class="pro-bar-container pro-bar-margin">
+								<div class="social-team">
+								</div>
+								<ul class="list-social-team">
+									<li class="icon-team tipped" data-title="github" data-tipper-options='{"direction":"top","follow":"true"}'>
+										<a href="https://github.com/codev911">&#xf09b;</a>
+									</li>
+									<li class="icon-team tipped" data-title="linkedin" data-tipper-options='{"direction":"top","follow":"true"}'>
+										<a href="https://www.linkedin.com/in/geraldine-adi-500b4213a/">&#xf0e1;</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="four columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.5s">
+						<div class="team-wrap snd">
+							<img src="images/aflan.jpg" alt="Alfan Asyari"/>
+							<h6>Name: Alfan Asyari</h6>
+							<h5>Advisor & Marketing</h5>
+							<div class="skills-name">Community<span>%</span><span class="counter-numb">90</span></div>
+							<div class="pro-bar bar-90" data-pro-bar-percent="90" data-pro-bar-delay="800"></div>
+							<div class="skills-name">Writing Skills<span>%</span><span class="counter-numb">82</span></div>
+							<div class="pro-bar bar-82" data-pro-bar-percent="82" data-pro-bar-delay="800"></div>
+							<div class="skills-name">Partnership<span>%</span><span class="counter-numb">80</span></div>
+							<div class="pro-bar bar-80" data-pro-bar-percent="80" data-pro-bar-delay="800"></div>
+							<div class="skills-name">Marketing<span>%</span><span class="counter-numb">86</span></div>
+							<div class="pro-bar bar-86" data-pro-bar-percent="86" data-pro-bar-delay="800"></div>
+							<div class="pro-bar-container pro-bar-margin">
+								<div class="social-team">
+								</div>
+								<ul class="list-social-team">
+									<li class="icon-team tipped" data-title="twitter"
+										data-tipper-options='{"direction":"top","follow":"true"}'>
+										<a href="https://twitter.com/officialkudice">&#xf099;</a>
+									</li>
+									<li class="icon-team tipped" data-title="linkedin" data-tipper-options='{"direction":"top","follow":"true"}'>
+										<a href="https://www.linkedin.com/in/mohamad-alfan-asy-ari-a4a583146/">&#xf0e1;</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="four columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.5s">
+						<div class="team-wrap snd">
+							<img src="images/zentachainhiring.png" alt="Zentachainhiring"/>
 						</div>
 					</div>
 				</div>
@@ -745,14 +804,15 @@
 						<div class="title-text left">
 							<h3>Zenta Roadmap</h3>
 						</div>
-					</div>	
+					</div>
+
 					<div class="ten columns">
 						<div class="journal-wrap">
 							<img  src="images/zentaconcept.png" alt="zentablockchain"/>
 							<div class="journal-det" data-scroll-reveal="enter right move 150px over 0.7s after 0.3s">
 								<h3>The Zentachain Concept&nbsp;<span>2018 Q2</span></h3>
 								<h6>Strategic Planning & Processing</h6>
-								<h6>We Creat The Zentachain Project</h6>
+								<h6>We Create The Zentachain Project</h6>
 							</div>
 						</div>
 					</div>
@@ -764,7 +824,7 @@
 							<img  src="images/zentaastro.png" alt="zentaastro" style="width:400px;height:500px;"/>
 							<div class="journal-det-right" data-scroll-reveal="enter left move 150px over 0.7s after 0.6s">
 								<h3>Development Zentachain&nbsp;<span>2018 Q4</span></h3>
-								<h6>Whitepaper Release</h6>
+								<h6>Whitepaper Released</h6>
 								<h6>The Homepage Released</h6>
 								<h6>Roadmap Released</h6>
 								<h6>Testnet Zentalk Web</h6>
@@ -803,6 +863,7 @@
 							</div>
 						</div>
 					</div>
+					
 					<div class="twelve columns">
 						<div class="journal-wrap">
 							<img  src="images/zentachaintrain.png" alt="Zentachainraodmap"/>
@@ -841,14 +902,14 @@
 								<h6>Sharding on Zentablockchain</h6>
 								<h6>Swaping To Own Blockchain</h6>
 								<h6>Own Blockchain Dpos</h6>
-								<h6>Minning Zenta Token</h6>
+								<h6>Mining Zenta Token</h6>
 								<h6>Zentalk Network Nodes</h6>
 								<h6>Updating Roadmap</h6>
 							</div>
 						</div>
 					</div>
 				</div>	
-			</div>	
+			</div>
 		<div class="section back-dark-black padding-top-bottom overflow-hidden">
 			<div class="container">
 				<div class="six columns" data-scroll-reveal="enter bottom move 100px over 1s after 0.4s">
